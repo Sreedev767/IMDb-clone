@@ -1,0 +1,39 @@
+.row{
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.movie-row{
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 20px;
+}
+.movie{
+  width: 100%;
+  height: 230px;
+  transition: 460ms;
+}
+
+.movie:hover{
+  transform: scale(1.06);
+}
+.movie-poster{
+  height: 340px;
+  margin-right: 10px
+}
+.posterimage_overly{
+  display: flex;
+  flex-direction: column;
+}
+.poster-title{
+  width: 230px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.poster-runtime{
+  font-size: 14px;
+}

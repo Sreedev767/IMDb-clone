@@ -1,0 +1,31 @@
+.posterimage{
+  width: 100%;
+  height: 35vh;
+  position: relative;
+  z-index: -1;
+}
+.posterbg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.058),rgba(0, 0, 0, 0.874));
+  z-index: 0;
+  width: 100%;
+  height: 88vh;
+  position: absolute;
+}
+.posterimage_overly{
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 60%;
+  z-index: 1;
+
+}
+.poster-rating{
+  color: #F5C518;
+  font-size: 15px;
+}
+.buton{
+  color: #F5C518;
+
+}
