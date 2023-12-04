@@ -1,6 +1,6 @@
 .posterimage{
   width: 100%;
-  height: 35vh;
+  height: 55vh;
   position: relative;
   z-index: -1;
 }
@@ -19,6 +19,7 @@
   text-align: left;
   width: 60%;
   z-index: 1;
+  height:100%;
 
 }
 .poster-rating{
@@ -27,5 +28,4 @@
 }
 .buton{
   color: #F5C518;
-
 }
